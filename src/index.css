@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins'), url(./fonts/Poppins/Poppins-Regular.ttf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 900;
+  src: local('Poppins'), url(./fonts/Poppins/Poppins-Bold.ttf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 900;
+  src: local('Poppins'), url(./fonts/Poppins/Poppins-Black.ttf) format('opentype');
+}
+
+@import '~antd/dist/antd.css';
+@import '~antd/dist/antd.dark.css';
+
+body {
+  margin: 0;
+  font-family: 'Poppins', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #2c2a2a!important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
