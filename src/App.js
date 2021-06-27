@@ -7,7 +7,8 @@ import { Select, InputNumber, Button, Typography, Affix } from 'antd';
 
 const { Option } = Select;
 const { Title } = Typography;
-const BASE_URL = 'http://localhost:7070/v1';
+const { BASE_URL } = process.env;
+console.log(process.env)
 
 function App() {
   const [eventos, setEventos] = useState([]);
